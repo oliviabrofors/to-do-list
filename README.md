@@ -55,8 +55,8 @@ This project utilizes the following technologies:
 The main functionalities of the Flask app include:
 
 * User Authentication (Login/Logout):
-  */login: Handles user authentication and session management.
-  */logout: Logs the user out and redirects to the login page.
+  * /login: Handles user authentication and session management.
+  * /logout: Logs the user out and redirects to the login page.
 * Task Management:
   * /add: Adds tasks to the user's task list.
   * /done/<int:todo_id>: Marks tasks as done or undone.
