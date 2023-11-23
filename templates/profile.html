@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+    <title>User Profile</title>
+</head>
+
+<body>
+    <div class="profile-container">
+        {% if full_name %}
+            <h1>{{full_name}}'s Profile</h1>
+        {% else %}
+            <h1>{{username}}'s Profile</h1>
+        {% endif %}
+        {% if message %}
+            <p>{{ message }}</p>
+        {% endif %}
+        <form action="{{ url_for('profile') }}" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" value="{{ username }}">
+            <label for="fullname">Fullname:</label>
+            {% if not full_name %}
+                <input type="text" name="full_name" value="Insert full name">
+            {% else %}
+                <input type="text" name="full_name" value="{{ full_name }}">
+            {% endif %}
+            <button type="submit" class="savechange">Save Changes</button>
+        </form>
+            <form action="{{ url_for('go_back') }}" method="POST">
+                <button type="submit" class="goback">Go Back</button>
+            </form>
+    </div>
+</body>
+</html>

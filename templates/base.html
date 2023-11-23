@@ -1,0 +1,73 @@
+<!--base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div style="margin-top: 50px;" class="left">
+            {% if full_name %}
+                <h1 class="ui center aligned header">{{full_name}}'s Task Page</h1>
+            {% else %}
+                <h1 class="ui center aligned header">{{username}}'s Task Page</h1>
+            {% endif %}
+            <a class="ui button" href="{{ url_for('profile') }}">Edit Profile</a>
+    
+            <form class="ui form" action="{{url_for('add')}}" method="post">
+                
+                <div class="field">
+                    <input type="text" name="title" placeholder="Enter a task" required>
+                </div>
+                
+                <div class="field">
+                    <textarea name="description" placeholder="Describe the task..."></textarea>
+                </div>
+                
+                <div class="field"> 
+                    <label class="prio-text">Prioritized? 
+                        <input class="checkbox" type="checkbox" name="prio">  
+                    </label>
+                    <button class="ui pink button" type="submit">Add</button>
+                </div>
+            </form>   
+            
+            <div class="container2">
+                {% if 'username' in session %}
+                <a class="ui button" href="{{ url_for('logout') }}">Logout</a>
+                {% endif %}
+            </div>
+        </div>
+    
+        <div class="right">
+            {% if todo_list %}
+                {% for todo in todo_list %}
+                    <div class="todo-container {% if todo.done %}done{% endif %}{% if todo.prio %}prio{% endif %}">
+                        <h1>{{todo.title}}</h1>
+                        <p>{{todo.description}}<p> 
+                        <a class="ui grey button{% if todo.done %} done{% endif %}" href="/done/{{ todo.id }}">Done</a>
+                        <a class="ui grey button" href="/delete/{{ todo.id }}">Delete</a>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="center">
+                    <h2>No Tasks Yet</h2>
+                </div>
+            {% endif %}
+        </div>    
+    </div>
+   
+</body>
+
+</html>
