@@ -50,7 +50,7 @@ Upon accessing the application:
 
 <img src ="images/login.png" width="300"/>
 
-**Add Tasks:** Tasks can be added by providing a title, description, and optional priority setting. If the task is prioritized it will get a red border to highlight it's importance. 
+**Add Tasks:** Tasks can be added by providing a title, description, and optional priority setting. Title is required. If the task is prioritized it will get a red border to highlight it's importance. 
 
 **Task Management:** Task management includes marking tasks as done or deleting them. When a task is marked done it gets a green border and when a task gets deleted it erases from the task page and from the database.
 
