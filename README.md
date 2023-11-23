@@ -11,25 +11,26 @@ Task Management: Users can add, delete, mark tasks as done, and prioritize them 
 User Profiles: Provides the ability to set up and edit user profiles with usernames and full names.
 Setup Instructions
 
-Clone the Repository
+###Clone the Repository
 ```
 git clone https://github.com/your_username/todo-flask-app.git
 cd todo-flask-app
-
-Install Dependencies
+```
+###Install Dependencies
 ```
 pip install -r requirements.txt
-Database Setup
-Ensure SQLite is installed.
-Initialize the database by running:
-bash
-Copy code
+```
+###Database Setup
+*Ensure SQLite is installed.
+*Initialize the database by running:
+```
 python app.py
-Run the Application
-bash
-Copy code
+```
+###Run the Application
+```
 python app.py
-Access the App
+```
+###Access the App
 Visit http://localhost:5000/ in your web browser to use the application.
 Usage
 
