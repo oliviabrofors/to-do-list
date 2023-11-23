@@ -1,6 +1,6 @@
 # to-do-list
 
-Todo Flask App
+## Todo Flask App
 
 This project implements a simple task management web application using Flask, allowing users to manage their tasks and profiles efficiently.
 
@@ -12,7 +12,7 @@ User Profiles: Provides the ability to set up and edit user profiles with userna
 Setup Instructions
 
 Clone the Repository
-bash
+´´´
 Copy code
 git clone https://github.com/your_username/todo-flask-app.git
 cd todo-flask-app
