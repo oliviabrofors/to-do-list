@@ -56,6 +56,8 @@ Upon accessing the application:
 
 ![Tasks](images/tasks.png)
 
+<img src ="images/tasks.png" width="400"/>
+
 **Profile:** Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account.
 
 ![Prof1](images/profil1.png)
