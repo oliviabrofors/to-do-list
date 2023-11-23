@@ -1,6 +1,4 @@
-# to-do-list
-
-## Todo Flask App
+# Todo Flask App
 
 This project implements a simple task management web application using Flask, allowing users to manage their tasks and profiles efficiently.
 
