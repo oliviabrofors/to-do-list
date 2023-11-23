@@ -84,7 +84,7 @@ Each route in the Flask app handles specific functionalities related to user aut
 
 ## Contributors
 
-* [Your Name](link_to_profile) - Role/Contributions
+* [Olivia Brofors]([link_to_profile](https://github.com/oliviabrofors/)) - Role/Contributions
 
 ## License
 
