@@ -56,7 +56,7 @@ Upon accessing the application:
 
 <img src ="images/tasks.png" width="1050"/>
 
-**Profile:** Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account.
+**Profile:** Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account. If you add a Full Name to the account the task page and profile page will be titles with "Full Name"'s page istead of "Username"'s page.
 
 <div style="display: flex;">
     <img src ="images/profil1.png" width="300"/>
