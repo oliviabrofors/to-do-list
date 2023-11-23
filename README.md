@@ -60,7 +60,7 @@ Upon accessing the application:
 
 <div style="display: flex;">
     <img src ="images/profil1.png" width="300"/>
-    <img src ="images/profil2.png" width="500"/>
+    <img src ="images/profil2.png" width="475"/>
 </div>
 
 ## Technologies Used
