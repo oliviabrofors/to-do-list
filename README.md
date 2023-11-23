@@ -12,7 +12,7 @@ User Profiles: Provides the ability to set up and edit user profiles with userna
 Setup Instructions
 
 Clone the Repository
-´´´
+```
 Copy code
 git clone https://github.com/your_username/todo-flask-app.git
 cd todo-flask-app
