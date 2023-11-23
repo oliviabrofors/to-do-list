@@ -48,6 +48,8 @@ Upon accessing the application:
 
 **Login:** Users can either log in with existing credentials or create a new account. If the username inserted in the login page already exist, you log in to that users account. If the username inserted is non-existing, a new user is created and you log in to the new users account.
 
+![Alt Text](image_url_or_path)
+
 **Add Tasks:** Tasks can be added by providing a title, description, and optional priority setting. If the task is prioritized it will get a red border to highlight it's importance. 
 
 **Task Management:** Task management includes marking tasks as done or deleting them. When a task is marked done it gets a green border and when a task gets deleted it erases from the task page and from the database.
