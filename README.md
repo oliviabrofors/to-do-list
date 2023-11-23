@@ -46,7 +46,7 @@ This project implements a simple task management web application using Flask, al
 
 Upon accessing the application:
 
-** login ** Users can either log in with existing credentials or create a new account. If the username inserted in the login page already exist, you log in to that users account. If the username inserted is non-existing, a new user is created and you log in to the new users account.
+**login** Users can either log in with existing credentials or create a new account. If the username inserted in the login page already exist, you log in to that users account. If the username inserted is non-existing, a new user is created and you log in to the new users account.
 
 Tasks can be added by providing a title, description, and optional priority setting. If the task is prioritized it will get a red border to highlight it's importance. 
 
