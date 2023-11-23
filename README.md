@@ -54,9 +54,12 @@ Upon accessing the application:
 
 **Task Management:** Task management includes marking tasks as done or deleting them. When a task is marked done it gets a green border and when a task gets deleted it erases from the task page and from the database.
 
-![Login](images/tasks.png)
+![Tasks](images/tasks.png)
 
 **Profile:** Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account.
+
+![Prof1](images/profil1.png)
+![Prof2](images/profil2.png)
 
 ## Technologies Used
 
