@@ -46,10 +46,10 @@ This project implements a simple task management web application using Flask, al
 
 Upon accessing the application:
 
-* Users can either log in with existing credentials or create a new account.
-* Tasks can be added by providing a title, description, and optional priority setting.
-* Task management includes marking tasks as done or deleting them.
-* Users can modify their profiles by clicking on "Edit Profile".
+* Users can either log in with existing credentials or create a new account. If the username inserted in the login page already exist, you log in to that users account. If the username inserted is non-existing, a new user is created and you log in to the new users account.
+* Tasks can be added by providing a title, description, and optional priority setting. If the task is prioritized the task will get a red border to highlight it's importance. 
+* Task management includes marking tasks as done or deleting them. When a task is marked done it gets a green border and when deleting a task it erases from the task page and from the database.
+* Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account.
 
 ## Technologies Used
 
