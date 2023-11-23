@@ -35,26 +35,27 @@ Visit http://localhost:5000/ in your web browser to use the application.
 
 Upon accessing the application:
 
-Users can either log in with existing credentials or create a new account.
-Tasks can be added by providing a title, description, and optional priority setting.
-Task management includes marking tasks as done or deleting them.
-Users can modify their profiles by clicking on "Edit Profile".
+* Users can either log in with existing credentials or create a new account.
+* Tasks can be added by providing a title, description, and optional priority setting.
+* Task management includes marking tasks as done or deleting them.
+* Users can modify their profiles by clicking on "Edit Profile".
 
 ### Technologies Used
 
 This project utilizes the following technologies:
 
-Python
-Flask
-SQLAlchemy (SQLite)
-HTML/CSS
-Semantic UI
-Code Description
+* Python
+* Flask
+* SQLAlchemy (SQLite)
+* HTML/CSS
+* Semantic UI
+
+### Code Description
 
 The main functionalities of the Flask app include:
 
-User Authentication (Login/Logout):
-/login: Handles user authentication and session management.
+* User Authentication (Login/Logout):
+** /login: Handles user authentication and session management.
 /logout: Logs the user out and redirects to the login page.
 Task Management:
 /add: Adds tasks to the user's task list.
