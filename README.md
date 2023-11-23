@@ -13,8 +13,8 @@ This project implements a simple task management web application using Flask, al
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your_username/todo-flask-app.git
-    cd todo-flask-app
+    git clone https://github.com/oliviabrofors/to-do-list.git
+    cd to-do-list
     ```
 
 2. **Install Dependencies**
