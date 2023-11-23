@@ -13,12 +13,11 @@ Setup Instructions
 
 Clone the Repository
 ```
-Copy code
 git clone https://github.com/your_username/todo-flask-app.git
 cd todo-flask-app
+
 Install Dependencies
-bash
-Copy code
+```
 pip install -r requirements.txt
 Database Setup
 Ensure SQLite is installed.
