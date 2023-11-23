@@ -19,8 +19,8 @@ cd todo-flask-app
 pip install -r requirements.txt
 ```
 ### Database Setup
-*Ensure SQLite is installed.
-*Initialize the database by running:
+* Ensure SQLite is installed.
+* Initialize the database by running:
 ```
 python app.py
 ```
