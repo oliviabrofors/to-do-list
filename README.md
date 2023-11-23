@@ -58,13 +58,10 @@ Upon accessing the application:
 
 **Profile:** Users can modify their profiles by clicking on "Edit Profile". There you can change your username to a new non-existing username. You can also add a Full Name to your account.
 
-![Prof1](images/profil1.png)
-
-<img src ="images/profil1.png" width="300"/>
-
-![Prof2](images/profil2.png)
-
-<img src ="images/profil2.png" width="300"/>
+<div style="display: flex;">
+    <img src ="images/profil1.png" width="300"/>
+    <img src ="images/profil2.png" width="300"/>
+</div>
 
 ## Technologies Used
 
