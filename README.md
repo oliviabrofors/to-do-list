@@ -100,4 +100,4 @@ Each route in the Flask app handles specific functionalities related to user aut
 
 ## License
 
-This project is licensed under the [GNU License](LICENSE).
+This project is licensed under the [GNU License](LICENSE.md).
