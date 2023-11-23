@@ -31,7 +31,13 @@ def home():
     
     username = session['username']
     user = User.query.filter_by(username=username).first()
-    full_name = user.full_name
+    
+    if user:
+        full_name = user.full_name
+        todo_list = user.todos[::-1]
+    else:
+        full_name = None
+        todo_list = []
 
     todo_list = user.todos[::-1] if user else []
 
