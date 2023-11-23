@@ -55,20 +55,22 @@ This project utilizes the following technologies:
 The main functionalities of the Flask app include:
 
 * User Authentication (Login/Logout):
-** /login: Handles user authentication and session management.
-/logout: Logs the user out and redirects to the login page.
-Task Management:
-/add: Adds tasks to the user's task list.
-/done/<int:todo_id>: Marks tasks as done or undone.
-/delete/<int:todo_id>: Deletes tasks from the list.
-User Profile:
-/profile: Allows users to view and update their profile information.
-/save_changes: Saves changes made to the user profile.
-/go_back: Redirects the user back to the home page.
-Contributors
+  */login: Handles user authentication and session management.
+  */logout: Logs the user out and redirects to the login page.
+* Task Management:
+  * /add: Adds tasks to the user's task list.
+  * /done/<int:todo_id>: Marks tasks as done or undone.
+  * /delete/<int:todo_id>: Deletes tasks from the list.
+* User Profile:
+  * /profile: Allows users to view and update their profile information.
+  * /save_changes: Saves changes made to the user profile.
+  * /go_back: Redirects the user back to the home page.
 
-Your Name - Role/Contributions
-License
+### Contributors
+
+Olivia Brofors - Role/Contributions
+
+### License
 
 This project is licensed under the MIT License.
 
