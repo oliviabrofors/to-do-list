@@ -30,7 +30,8 @@ python app.py
 ```
 ### Access the App
 Visit http://localhost:5000/ in your web browser to use the application.
-Usage
+
+### Usage
 
 Upon accessing the application:
 
@@ -38,7 +39,8 @@ Users can either log in with existing credentials or create a new account.
 Tasks can be added by providing a title, description, and optional priority setting.
 Task management includes marking tasks as done or deleting them.
 Users can modify their profiles by clicking on "Edit Profile".
-Technologies Used
+
+### Technologies Used
 
 This project utilizes the following technologies:
 
